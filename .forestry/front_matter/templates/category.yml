@@ -9,5 +9,6 @@ fields:
   label: Name
   description: Category Name
 pages:
+- src/content/categories/basic-bread.md
 - src/content/categories/croissant.md
 - src/content/categories/danish.md
