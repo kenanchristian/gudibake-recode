@@ -22,6 +22,10 @@ sections:
   - product
 - type: heading
   label: Global
+- type: document
+  path: src/content/about-us.md
+  label: About Us
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/static/uploads"
 front_matter_path: ''
