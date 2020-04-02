@@ -20,6 +20,12 @@ sections:
   match: "**/*"
   templates:
   - product
+- type: heading
+  label: Global
+- type: document
+  path: src/content/setting.md
+  label: Setting
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/static/uploads"
 front_matter_path: ''
