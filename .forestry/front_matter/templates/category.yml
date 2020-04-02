@@ -12,4 +12,5 @@ pages:
 - src/content/categories/basic-bread.md
 - src/content/categories/croissant.md
 - src/content/categories/danish.md
+- src/content/categories/muffin.md
 - src/content/categories/toast.md
