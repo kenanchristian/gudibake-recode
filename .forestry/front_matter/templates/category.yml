@@ -8,3 +8,5 @@ fields:
     required: true
   label: Name
   description: Category Name
+pages:
+- src/content/categories/croissant.md
