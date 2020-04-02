@@ -26,3 +26,5 @@ fields:
   config: {}
   label: Photos
   description: Product Photos
+pages:
+- src/content/products/almond-croissant.md
