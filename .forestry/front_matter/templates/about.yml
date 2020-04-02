@@ -1,4 +1,26 @@
 ---
 label: About
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: About Us Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: About Us Description
+- name: about_us_icon
+  type: file
+  config:
+    maxSize: 250
+  label: About Us Icon
+  description: About Us Icon
