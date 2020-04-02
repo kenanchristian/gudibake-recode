@@ -1,4 +1,32 @@
 ---
 label: Product Page
 hide_body: true
-fields: []
+fields:
+- name: slides
+  type: field_group_list
+  fields:
+  - name: category
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: categories
+        file: 
+        path: 
+    label: Category
+    description: Category
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+    description: Slide Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  description: Slider Content
+  label: Slides
