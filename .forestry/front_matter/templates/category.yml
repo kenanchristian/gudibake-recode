@@ -10,3 +10,4 @@ fields:
   description: Category Name
 pages:
 - src/content/categories/croissant.md
+- src/content/categories/danish.md
