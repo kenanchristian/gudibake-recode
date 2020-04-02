@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: "/static/admin/"
 webhook_url: 
 sections:
-- type: directory
-  path: src/content
-  label: About Us c
-  create: documents
-  match: about-us.md
-  templates:
-  - about
 - type: heading
   label: Content
 - type: directory
