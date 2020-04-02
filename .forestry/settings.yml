@@ -4,11 +4,12 @@ auto_deploy: false
 admin_path: "/static/admin/"
 webhook_url: 
 sections:
-- type: document
-  path: src/content/home-page.md
-  label: Home Page
 - type: heading
   label: Global
+- type: document
+  path: src/content/home-page
+  label: Home Page
+  match: "**/*"
 - type: heading
   label: Content
 - type: directory
