@@ -7,7 +7,6 @@ sections:
 - type: document
   path: src/content/home-page.md
   label: Home Page
-  match: "**/*"
 - type: heading
   label: Global
 - type: heading
