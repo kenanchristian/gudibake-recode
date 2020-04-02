@@ -1,4 +1,9 @@
 ---
 label: Home Page
 hide_body: true
-fields: []
+fields:
+- name: slider_images
+  type: image_gallery
+  config: {}
+  label: Slider Images
+  description: Slider Images
