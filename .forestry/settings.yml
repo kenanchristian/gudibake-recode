@@ -7,9 +7,8 @@ sections:
 - type: heading
   label: Global
 - type: document
-  path: src/content/home-page
+  path: src/content/**/**/*
   label: Home Page
-  match: "**/*"
 - type: heading
   label: Content
 - type: directory
