@@ -1,4 +1,26 @@
 ---
 label: Contact Page
 hide_body: true
-fields: []
+fields:
+- name: phone_number
+  type: text
+  config:
+    required: false
+  label: Phone Number
+  description: Phone Number
+- name: e-mail
+  type: text
+  config:
+    required: false
+  label: E-Mail
+  description: e-mail
+- name: address
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Address
+  description: address
