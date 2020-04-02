@@ -1,4 +1,28 @@
 ---
 label: Product
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: Name
+  description: Product Name
+- name: category
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: categories
+      file: 
+      path: 
+  label: Category
+  description: Product Category
+- name: photos
+  type: image_gallery
+  config: {}
+  label: Photos
+  description: Product Photos
