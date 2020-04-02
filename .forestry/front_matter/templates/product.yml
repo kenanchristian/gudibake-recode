@@ -21,10 +21,18 @@ fields:
       path: 
   label: Category
   description: Product Category
-- name: photos
-  type: image_gallery
-  config: {}
-  label: Photos
-  description: Product Photos
+- name: photo
+  type: file
+  config:
+    maxSize: 250
+  label: Photo
+  hidden: false
+  description: Product Photo
+- name: alt_photo
+  type: file
+  config:
+    maxSize: 250
+  label: Alt Photo
+  description: Product Alternative Photo
 pages:
 - src/content/products/almond-croissant.md
