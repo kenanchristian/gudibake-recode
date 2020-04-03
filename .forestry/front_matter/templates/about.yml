@@ -24,3 +24,5 @@ fields:
     maxSize: 250
   label: About Us Icon
   description: About Us Icon
+pages:
+- src/content/about-us.md
