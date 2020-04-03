@@ -7,3 +7,5 @@ fields:
   config: {}
   label: Slider Images
   description: Slider Images
+pages:
+- src/content/home.md
