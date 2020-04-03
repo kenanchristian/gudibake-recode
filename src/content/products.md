@@ -1,5 +1,8 @@
 +++
 [[slides]]
+category = "src/content/categories/toast.md"
+image = "/static/uploads/toast.png"
+[[slides]]
 category = "src/content/categories/basic-bread.md"
 image = "/static/uploads/basic-bread.png"
 [[slides]]
