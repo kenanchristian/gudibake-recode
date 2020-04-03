@@ -9,6 +9,10 @@ sections:
 - type: document
   path: src/content/about-us.md
   label: About Us
+- type: document
+  path: src/content/contact.md
+  label: Contact Page
+  match: "**/*"
 - type: heading
   label: Content
 - type: directory
