@@ -37,5 +37,6 @@ fields:
   description: Product Alternative Photo
 pages:
 - src/content/products/almond-croissant.md
+- src/content/products/apple-danish.md
 - src/content/products/chocolate-corissant.md
 - src/content/products/plain-croissant.md
