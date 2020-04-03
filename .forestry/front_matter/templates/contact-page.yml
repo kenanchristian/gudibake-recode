@@ -24,3 +24,5 @@ fields:
       format: markdown
   label: Address
   description: address
+pages:
+- src/content/contact.md
