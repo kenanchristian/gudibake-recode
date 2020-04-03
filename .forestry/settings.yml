@@ -7,12 +7,15 @@ sections:
 - type: heading
   label: Pages
 - type: document
+  path: src/content/home.md
+  label: Home
+  match: "**/*"
+- type: document
   path: src/content/about-us.md
   label: About Us
 - type: document
   path: src/content/contact.md
-  label: Contact Page
-  match: "**/*"
+  label: Contact
 - type: heading
   label: Content
 - type: directory
