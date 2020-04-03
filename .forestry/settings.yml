@@ -13,6 +13,10 @@ sections:
   path: src/content/about-us.md
   label: About Us
 - type: document
+  path: src/content/products.md
+  label: Products
+  match: "**/*"
+- type: document
   path: src/content/contact.md
   label: Contact
 - type: heading
