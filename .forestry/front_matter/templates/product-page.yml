@@ -30,3 +30,5 @@ fields:
     labelField: 
   description: Slider Content
   label: Slides
+pages:
+- src/content/products.md
