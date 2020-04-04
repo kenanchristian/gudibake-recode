@@ -42,6 +42,7 @@ fields:
   label: Alt Photo
   description: Product Alternative Photo
 pages:
+- src/content/products/african-choco-chip.md
 - src/content/products/almond-croissant.md
 - src/content/products/almond-muffin.md
 - src/content/products/apple-danish.md
