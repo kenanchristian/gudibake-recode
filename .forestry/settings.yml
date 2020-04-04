@@ -21,45 +21,45 @@ sections:
 - type: heading
   label: Products
 - type: directory
-  path: src/content/products/croissant/*
+  path: src/content/products/croissant
   label: Croissant
   create: documents
-  match: "**/*"
+  match: "*"
   templates:
   - product
 - type: directory
-  path: src/content/products/danish/*
+  path: src/content/products/danish
   label: Danish
   create: documents
-  match: "**/*"
+  match: "*"
   templates:
   - product
 - type: directory
-  path: src/content/products/basic-bread/*
+  path: src/content/products/basic-bread
   label: Basic Bread
   create: documents
-  match: "**/*"
+  match: "*"
   templates:
   - product
 - type: directory
-  path: src/content/products/toast/*
+  path: src/content/products/toast
   label: Toast
   create: documents
-  match: "**/*"
+  match: "*"
   templates:
   - product
 - type: directory
-  path: src/content/products/muffin/*
+  path: src/content/products/muffin
   label: Muffin
   create: documents
-  match: "**/*"
+  match: "*"
   templates:
   - product
 - type: directory
-  path: src/content/products/cakes-cookies/*
+  path: src/content/products/cakes-cookies
   label: Cakes & Cookies
   create: documents
-  match: "**/*"
+  match: "*"
   templates:
   - product
 - type: directory
