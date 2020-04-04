@@ -19,7 +19,49 @@ sections:
   path: src/content/contact.md
   label: Contact
 - type: heading
-  label: Content
+  label: Products
+- type: directory
+  path: src/content/products/croissant/*
+  label: Croissant
+  create: documents
+  match: "**/*"
+  templates:
+  - product
+- type: directory
+  path: src/content/products/danish/*
+  label: Danish
+  create: documents
+  match: "**/*"
+  templates:
+  - product
+- type: directory
+  path: src/content/products/basic-bread/*
+  label: Basic Bread
+  create: documents
+  match: "**/*"
+  templates:
+  - product
+- type: directory
+  path: src/content/products/toast/*
+  label: Toast
+  create: documents
+  match: "**/*"
+  templates:
+  - product
+- type: directory
+  path: src/content/products/muffin/*
+  label: Muffin
+  create: documents
+  match: "**/*"
+  templates:
+  - product
+- type: directory
+  path: src/content/products/cakes-cookies/*
+  label: Cakes & Cookies
+  create: documents
+  match: "**/*"
+  templates:
+  - product
 - type: directory
   path: src/content/categories
   label: Categories
@@ -27,13 +69,6 @@ sections:
   match: "**/*"
   templates:
   - category
-- type: directory
-  path: src/content/products
-  label: Products
-  create: documents
-  match: "**/*"
-  templates:
-  - product
 upload_dir: static/uploads
 public_path: "/static/uploads"
 front_matter_path: ''
