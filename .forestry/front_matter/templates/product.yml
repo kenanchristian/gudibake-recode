@@ -43,6 +43,7 @@ pages:
 - src/content/products/baguette.md
 - src/content/products/banana-muffin.md
 - src/content/products/blueberry-danish.md
+- src/content/products/blueberry-muffin.md
 - src/content/products/brioche.md
 - src/content/products/brown-toast.md
 - src/content/products/burger-buns.md
