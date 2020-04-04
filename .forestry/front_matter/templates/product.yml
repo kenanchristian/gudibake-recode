@@ -22,6 +22,12 @@ fields:
       path: 
   label: Category
   description: Product Category
+- name: thumbnail
+  type: file
+  config:
+    maxSize: 250
+  label: Thumbnail
+  description: Product Thumbnail
 - name: photo
   type: file
   config:
